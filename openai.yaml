@@ -1,0 +1,14 @@
+name: geoskill-data-versioning
+display_name: 空间数据版本管理
+description: |
+  对矢量数据做变更检测、版本快照与差异比较，支持 commit / diff / log 操作。Change detection, version snapshots and diff comparison for vector data with commit / diff / log operations.
+version: 0.1.0
+author: Mavis
+entrypoint: geoskill-data-versioning.py
+runtime: python>=3.9
+tags:
+  - extraction
+  - gis
+  - remote-sensing
+  - time-series
+  - vector

@@ -1,0 +1,112 @@
+{
+  "skill": "data-versioning",
+  "source": "synthetic",
+  "key_field": "id",
+  "versions": [
+    {
+      "id": 1,
+      "tag": "v1",
+      "message": "baseline",
+      "author": "skill",
+      "timestamp": "2026-08-02T22:02:17.028017Z",
+      "content_hash": "f2a729b4ff2897bf",
+      "feature_count": 15,
+      "snapshot": "v1.geojson"
+    },
+    {
+      "id": 2,
+      "tag": "v2",
+      "message": "synthetic edit",
+      "author": "skill",
+      "timestamp": "2026-08-02T22:02:17.048890Z",
+      "content_hash": "b5f7276a538382b5",
+      "feature_count": 15,
+      "snapshot": "v2.geojson"
+    },
+    {
+      "id": 3,
+      "tag": "v3",
+      "message": "baseline",
+      "author": "skill",
+      "timestamp": "2026-08-03T12:50:42.708274Z",
+      "content_hash": "f2a729b4ff2897bf",
+      "feature_count": 15,
+      "snapshot": "v3.geojson"
+    },
+    {
+      "id": 4,
+      "tag": "v4",
+      "message": "synthetic edit",
+      "author": "skill",
+      "timestamp": "2026-08-03T12:50:42.781303Z",
+      "content_hash": "b5f7276a538382b5",
+      "feature_count": 15,
+      "snapshot": "v4.geojson"
+    },
+    {
+      "id": 5,
+      "tag": "v5",
+      "message": "baseline",
+      "author": "skill",
+      "timestamp": "2026-08-03T12:51:04.618300Z",
+      "content_hash": "f2a729b4ff2897bf",
+      "feature_count": 15,
+      "snapshot": "v5.geojson"
+    },
+    {
+      "id": 6,
+      "tag": "v6",
+      "message": "synthetic edit",
+      "author": "skill",
+      "timestamp": "2026-08-03T12:51:04.628600Z",
+      "content_hash": "b5f7276a538382b5",
+      "feature_count": 15,
+      "snapshot": "v6.geojson"
+    },
+    {
+      "id": 7,
+      "tag": "v7",
+      "message": "baseline",
+      "author": "skill",
+      "timestamp": "2026-08-03T12:51:23.289576Z",
+      "content_hash": "f2a729b4ff2897bf",
+      "feature_count": 15,
+      "snapshot": "v7.geojson"
+    },
+    {
+      "id": 8,
+      "tag": "v8",
+      "message": "synthetic edit",
+      "author": "skill",
+      "timestamp": "2026-08-03T12:51:23.297422Z",
+      "content_hash": "b5f7276a538382b5",
+      "feature_count": 15,
+      "snapshot": "v8.geojson"
+    }
+  ],
+  "diff": {
+    "added": [
+      "16"
+    ],
+    "removed": [
+      "15"
+    ],
+    "modified": [
+      {
+        "key": "1",
+        "changes": {
+          "value": {
+            "old": 77.396,
+            "new": 1077.396
+          }
+        }
+      }
+    ],
+    "n_added": 1,
+    "n_removed": 1,
+    "n_modified": 1,
+    "n_changed": 3,
+    "from": "v7",
+    "to": "v8"
+  }
+}
