@@ -2,8 +2,8 @@
   "skill": "data-versioning",
   "skill_version": "1.0.0",
   "command": "data-versioning --bbox 116 39 117 40 --synthetic --features 15 --output-dir ./_test_cli_run --quiet",
-  "started_at": "2026-08-03T12:51:22.969470Z",
-  "finished_at": "2026-08-03T12:51:23.332716Z",
+  "started_at": "2026-11-02T15:00:10.711168Z",
+  "finished_at": "2026-11-02T15:00:11.161506Z",
   "exit_code": 0,
   "inputs": {
     "input": null,
@@ -21,7 +21,7 @@
   "datasets": [],
   "outputs": [
     {
-      "path": "./_test_cli_run\\versioning_report.json",
+      "path": "./_test_cli_run/versioning_report.json",
       "kind": "json",
       "size_bytes": null,
       "crs_epsg": null,
@@ -35,14 +35,14 @@
   ],
   "qa": {
     "source": "synthetic",
-    "n_versions": 8,
-    "latest_version": "v8",
+    "n_versions": 10,
+    "latest_version": "v10",
     "n_added": 1,
     "n_removed": 1,
     "n_modified": 1
   },
   "software": {
-    "python": "3.9.21",
+    "python": "3.12.3",
     "skill": "data-versioning"
   },
   "error": null

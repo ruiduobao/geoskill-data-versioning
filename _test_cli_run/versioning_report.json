@@ -82,6 +82,26 @@
       "content_hash": "b5f7276a538382b5",
       "feature_count": 15,
       "snapshot": "v8.geojson"
+    },
+    {
+      "id": 9,
+      "tag": "v9",
+      "message": "baseline",
+      "author": "skill",
+      "timestamp": "2026-11-02T15:00:11.143759Z",
+      "content_hash": "f2a729b4ff2897bf",
+      "feature_count": 15,
+      "snapshot": "v9.geojson"
+    },
+    {
+      "id": 10,
+      "tag": "v10",
+      "message": "synthetic edit",
+      "author": "skill",
+      "timestamp": "2026-11-02T15:00:11.151900Z",
+      "content_hash": "b5f7276a538382b5",
+      "feature_count": 15,
+      "snapshot": "v10.geojson"
     }
   ],
   "diff": {
@@ -106,7 +126,7 @@
     "n_removed": 1,
     "n_modified": 1,
     "n_changed": 3,
-    "from": "v7",
-    "to": "v8"
+    "from": "v9",
+    "to": "v10"
   }
 }
